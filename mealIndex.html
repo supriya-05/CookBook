@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="mealStyle.css" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="header">
+      <a href="finalHome.html">
+        <img src="logo_upd_1.png">
+    </a>
+      <div class="header-right">
+          <a href="finalhome2.html">Home</a>
+          <a href="index.html">Search by Ingredient</a>
+          <!-- <a href="mealIndex.html">Search by Meal</a> -->
+          <a class="active" href="mealIndex.html">Search by Meal</a>
+      </div>
+  </div>
+    <div class="container">
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatem error, quidem aliquam omnis necessitatibus veniam doloribus nesciunt temporibus enim laborum iure consequuntur nihil possimus recusandae, neque eligendi perferendis excepturi.</p> -->
+      <div class="search-container">
+        <!-- <input
+          type="text"
+          placeholder="Type A Dish Name Here.."
+          id="user-inp"
+        />
+        <button id="search-btn">Search</button> -->
+        <input type = "text" class = "search-control" placeholder="Enter a dish" id = "user-inp">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">Search
+            <i class = "fas fa-search"></i>
+          </button>
+      </div>
+
+      
+
+      
+      <div id="result"></div>
+    </div>
+    <!-- Script -->
+    <script src="mealScript.js"></script>
+  </body>
+</html>
